@@ -118,9 +118,6 @@ test.describe('Checkbox - cell, filter, sort', () => {
     }
     await toolbar.sort.reset();
 
-    // wait for 10 seconds
-    await dashboard.rootPage.waitForTimeout(10000);
-
     // TBD: Add more tests
     // Expanded form insert
     // Expanded record insert
